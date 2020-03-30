@@ -1,0 +1,2 @@
+rootProject.name='註冊寫入Javaee_servlet'
+include ':app'
