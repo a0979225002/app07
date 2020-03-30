@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         };
         MainApp.queue.add(request);
     }
-
+    //依靠後台做出的json網頁,查詢sql內的帳號資料
     public void test1(View view) {
         JsonArrayRequest request = new JsonArrayRequest(
                 "http://192.168.1.123:8080/JAVAEE/brad24",
