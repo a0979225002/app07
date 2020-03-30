@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
         MainApp.queue.add(request);
     }
+    //抓取json方法
     private void parseJSON(JSONArray jsonArray){
         try {
             mesg.setText("");
